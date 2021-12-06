@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color:  hsl(217, 54%, 11%);
+}
+
+.card {
+    height: 600px;
+    width: 350px;
+    background-color:  hsl(216, 50%, 16%);
+    margin: 130px auto;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 5px hsl(215 63% 7%);
+}
+
+.image {
+    height: 300px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+span.cyanOverlay {
+    background:  hsla(178, 100%, 50%, 0.603);
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 10px;
+    bottom: 304px;
+    margin-bottom: -300px;
+}
+
+.imagecontainer:hover span.cyanOverlay {
+    display: block;
+    margin-left: 25px;
+    background-image: url("images/icon-view.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.imagecontainer {
+    text-align: center;
+    position: relative;
+}
+
+.equilibrium {
+    padding: 0px 25px;
+}
+.heading {
+    color: white;
+}
+
+.heading:hover {
+    color:  hsl(178, 100%, 50%);
+}
+
+.para {
+    color:  hsl(215, 34%, 49%);
+    font-size: 18px;
+}
+
+.eth {
+    margin: 0px 25px;
+    display: inline-flex;
+}
+
+.price {
+    color:  hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+.days {
+    padding-left: 105px;
+    color:  hsl(215, 34%, 49%);
+}
+
+.eth img {
+    padding-right: 5px;
+}
+
+hr {
+    width: 300px;
+    height: 1px;
+    border: none;
+    background-color:  hsl(215, 32%, 27%);
+}
+
+.creation p {
+    color:  hsl(215, 34%, 49%);
+    margin: 5px;
+}
+
+.creation span {
+    color: white;
+}
+
+.creation img {
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+    top: 8px;
+}
+
+.creation {
+    padding: 0px 25px;
+}
+
+.creation span:hover {
+    color:  hsl(178, 100%, 50%);
+}
+
+.icon {
+    position: relative;
+    top: 3px;
+}
